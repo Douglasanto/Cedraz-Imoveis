@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.gradiant-juniorlindo {
+  background-color: transparent;
+  background-image: linear-gradient(87deg, #031217 2%, #fefefe00 300%);
+  opacity: 1;
+}
+
+.LinkNav {
+  position: relative;
+  text-decoration: none;
+}
+
+.LinkNav::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.LinkNav:hover::before {
+  transform: scaleX(1);
+}
