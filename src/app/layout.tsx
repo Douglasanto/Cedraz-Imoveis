@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Header } from "@/components/Header";
+
 import localfont from "next/font/local";
+import { HeaderPage } from "@/components/HeaderPage";
 
 const myriad = localfont({
   src: [
@@ -37,7 +38,7 @@ export default function RootLayout({
       className={`${myriad.variable} scroll-smooth snap-start snap-mandatory overflow-x-hidden`}
     >
       <body>
-        <Header />
+        <HeaderPage />
         {children}
       </body>
     </html>

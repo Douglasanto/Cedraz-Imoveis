@@ -41,28 +41,34 @@ export function Footer() {
           Tem dúvidas? Entre em contato
         </h1>
         <div className="grid grid-cols-2 gap-8 mt-8 mb-4 sm:flex">
-          <a href="wa.me/71996989605" target="_blank" rel="noopener noreferrer">
-            <IoLogoWhatsapp size={60} className="bg-primary rounded-full p-2" />
-          </a>
-          <a
-            href="https://www.instagram.com/imoveis.cedraz/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <IoLogoInstagram
-              size={60}
-              className="bg-primary rounded-full p-2"
-            />
-          </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <IoLogoFacebook size={60} className="bg-primary rounded-full p-2" />
-          </a>
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <IoMailUnreadOutline
-              size={60}
-              className="bg-primary rounded-full p-2"
-            />
-          </a>
+          <div className="bg-primary rounded-full p-2">
+            <a
+              href="wa.me/71996989605"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IoLogoWhatsapp size={60} />
+            </a>
+          </div>
+          <div className="bg-primary rounded-full p-2">
+            <a
+              href="https://www.instagram.com/imoveis.cedraz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IoLogoInstagram size={60} />
+            </a>
+          </div>
+          <div className="bg-primary rounded-full p-2">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <IoLogoFacebook size={60} />
+            </a>
+          </div>
+          <div className="bg-primary rounded-full p-2">
+            <a href="" target="_blank" rel="noopener noreferrer">
+              <IoMailUnreadOutline size={60} />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
