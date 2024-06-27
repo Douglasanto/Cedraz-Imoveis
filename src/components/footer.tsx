@@ -1,12 +1,7 @@
 "use client";
 
 import { SubmitButton } from "./layout/SubmitButton";
-import {
-  IoLogoInstagram,
-  IoLogoWhatsapp,
-  IoLogoFacebook,
-  IoMailUnreadOutline,
-} from "react-icons/io5";
+import { IoLogoInstagram, IoLogoWhatsapp } from "react-icons/io5";
 
 export function Footer() {
   const handleButton = () => {
@@ -16,16 +11,19 @@ export function Footer() {
   return (
     <footer className="bg-second flex flex-col items-center lg:px-16 px-6 py-6">
       <div className="flex flex-col items-center content-center mt-7">
-        <h1 className="flex flex-col items-center text-white font-black text-4xl sm:flex-row">
-          Quem é{" "}
-          <span className="text-primary sm:ml-2">
-            Cedraz Soluções Imobiliárias?
-          </span>
-        </h1>
+        <div className="flex text-center">
+          <h1 className="flex flex-col items-center text-white font-black text-4xl md:flex-row">
+            Quem é
+            <span className="text-primary sm:ml-2">
+              Cedraz Soluções Imobiliárias?
+            </span>
+          </h1>
+        </div>
         <p className="text-white text-center mt-4 text-2xl lg:w-[930px]">
           Cedraz é corretor de imóveis e avaliador imobiliário credenciado,
-          nascido na Bahia, com cinco anos de experiência no mercado, Ele tem
-          uma paixão pelo relacionamento interpessoal e pela venda.
+          nascido na Bahia. Especialista no mercado imobiliário, com mais de 5
+          anos de experiência, ele tem paixão pelo relacionamento interpessoal e
+          pela venda.
         </p>
         <SubmitButton
           className="bg-primary border-white sm:w-[450px] sm:p-7"

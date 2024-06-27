@@ -13,13 +13,12 @@ export function Imoveis() {
       id="Imoveis"
       className="w-full h-auto bg-second flex flex-col items-center gap-28  py-14 px-6 font-myriad"
     >
-      <div className="flex items-center flex-col">
-        <h1 className="text-4xl font-bold text-white mt-12">
-          Veja alguns imóveis
+      <div className="flex flex-col md:items-center">
+        <h1 className="text-4xl font-bold text-white mt-12 xl:text-5xl">
+          Veja alguns imóveis em nosso
         </h1>
-        <h1 className="text-4xl font-bold text-white">
-          <span className="text-primary font-bold">negociados</span>{" "}
-          recentemente
+        <h1 className="text-4xl font-bold text-white xl:text-5xl">
+          <span className="text-primary font-bold">portfólio</span>
         </h1>
       </div>
       <CardsImage />

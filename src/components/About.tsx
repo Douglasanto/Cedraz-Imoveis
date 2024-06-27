@@ -20,8 +20,8 @@ export function About() {
             </span>
           </h1>
           <p className="text-xl max-w-[408px] text-white mb-8 sm:mt-14">
-            Ao nos escolhe para vender ou alugar o seu imóvel, você está optando
-            por uma experiêcia diferenciada e altamente eficaz.
+            Ao nos escolher para vender ou alugar o seu imóvel, você está
+            optando por uma experiêcia diferenciada e altamente eficaz.
           </p>
         </div>
         <div className="flex items-center flex-col">
