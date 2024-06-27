@@ -1,9 +1,9 @@
 export function Carousel() {
   const phrases = [
-    "VENDA OU ALUGUE O SEU IMÓVEL COM SEGURANÇA",
-    "VENDA OU ALUGUE O SEU IMÓVEL COM SEGURANÇA",
-    "VENDA OU ALUGUE O SEU IMÓVEL COM SEGURANÇA",
-    "VENDA OU ALUGUE O SEU IMÓVEL COM SEGURANÇA",
+    " VENDA, COMPRE OU ALUGUE O SEU IMÓVEL COM SEGURANÇA ",
+    " VENDA, COMPRE OU ALUGUE O SEU IMÓVEL COM SEGURANÇA ",
+    " VENDA, COMPRE OU ALUGUE O SEU IMÓVEL COM SEGURANÇA ",
+    " VENDA, COMPRE OU ALUGUE O SEU IMÓVEL COM SEGURANÇA ",
   ];
   return (
     <div className="w-full h-12 overflow-hidden bg-Carosel flex items-center">
